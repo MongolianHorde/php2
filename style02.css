@@ -1,0 +1,50 @@
+#titleHeader
+{
+	text-align:center;
+}
+
+h1, .survey_form
+{
+	text-align:center;
+}
+
+table
+{
+	color: #CC6600;
+	text-align:center;
+	white-space:nowrap;
+	 position:fixed;
+           height:50%;
+           width:50%;
+           top:25%;
+           left:25%;
+		   border: 1px solid black;
+    background-color: #000000;
+	opacity: 0.8;
+}
+
+#php_body
+{
+	color: #FFFFFF;
+	font-weight: bold;
+	background-image: url("food!.jpg") no-reapeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+#food_pic
+{
+	 /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}

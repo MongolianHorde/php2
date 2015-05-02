@@ -1,0 +1,49 @@
+<!DOCTYPE HTML> 
+
+<html>
+<head>
+   <meta name="author" content="Jonathan Sparks" />
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+   <link href="style02.css" rel="stylesheet" type="text/css" />
+   <title>Survey</title>
+</head>
+<body>
+   <h1>Please Rate Your Dinner</h1>
+   <form name="survey_form" id="survey_form" action="program02.php" method="post">
+      <div class="survey_form">
+         <label>What did you have? 
+            <select name="ddl_meal" id="ddl_meal">
+               <option value="1">Gingered Pepper Steak</option>   
+               <option value="2">Grilled Maui Burgers</option>
+               <option value="3">Parmesan Crusted Pork Tenderloin</option>
+               <option value="4">Pizza On The Grill </option>
+               <option value="5">Grilled Salmon Kyoto</option>
+            </select>
+         </label>
+         <br />
+         <label>How would you rate your food? 
+            <select name="ddl_rate_meal" id="ddl_rate_meal">
+               <option value="5">Excellent</option>   
+               <option value="4">Good</option>
+               <option value="3">Average</option>
+               <option value="2">Poor</option>
+               <option value="1">Very Poor</option>
+            </select>
+         </label>
+         <br />
+         <label>How would you rate your service? 
+            <select name="ddl_rate_service" id="ddl_rate_service">
+               <option value="5">Excellent</option>   
+               <option value="4">Good</option>
+               <option value="3">Average</option>
+               <option value="2">Poor</option>
+               <option value="1">Very Poor</option>
+            </select>
+         </label>
+         <br />
+         <input type="submit" value="Submit Survey" />
+      </div>
+   </form>
+
+</body>
+</html>
